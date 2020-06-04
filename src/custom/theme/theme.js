@@ -8,33 +8,12 @@ const colors = merge(defaultColors, customColors);
 export const uiColors = {
   background: colors.black,
   text: colors.white,
+  logo: colors.white,
 };
 
 export const initialColorMode = "default";
 
-export const modes = {
-  yellow: {
-    text: colors.black,
-    background: colors.yellow,
-    logoDark: "#000000",
-    logoMid: "#121212",
-    logoLight: "#282828",
-  },
-  green: {
-    text: colors.black,
-    background: colors.green,
-    logoDark: "#000000",
-    logoMid: "#121212",
-    logoLight: "#282828",
-  },
-  blue: {
-    text: colors.black,
-    background: colors.blue,
-    logoDark: "#000000",
-    logoMid: "#121212",
-    logoLight: "#282828",
-  },
-};
+export const modes = {};
 
 export default merge(baseTheme, {
   initialColorModeName: initialColorMode,

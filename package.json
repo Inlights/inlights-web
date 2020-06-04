@@ -1,25 +1,8 @@
 {
-  "name": "paraform-base",
-  "description": "Template repo for a static next js web app with PWA support, sanity cms and theme-ui.",
-  "keywords": [
-    "react",
-    "nextjs",
-    "components",
-    "boilerplate",
-    "sanity",
-    "theme-ui",
-    "pwa"
-  ],
-  "version": "1.0.0",
-  "repository": "paraform/paraform-base",
-  "author": "Paraform",
-  "homepage": "https://paraform-base.now.sh",
-  "license": "MIT",
-  "engines": {
-    "node": ">=10.x"
-  },
+  "name": "inlights-web",
+  "description": "Website for inlights app",
   "scripts": {
-    "dev": "next",
+    "dev": "next -p 3001",
     "build": "next build",
     "start": "next start"
   },
@@ -32,6 +15,7 @@
     "next-offline": "^5.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-iubenda-policy": "^0.1.1",
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {}

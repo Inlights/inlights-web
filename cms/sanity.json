@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "Paraform Base"
+    "name": "Inlights"
   },
   "api": {
-    "projectId": "0h9bwbro",
+    "projectId": "55po0kn2",
     "dataset": "production"
   },
   "plugins": [

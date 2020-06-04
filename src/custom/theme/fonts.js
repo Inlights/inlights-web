@@ -1,11 +1,12 @@
 import { merge } from "theme-ui";
 import { systemFonts, monoFonts, defaultFonts } from "library";
 
-const customFont = "Bw Aleta No 20 DEMO";
+const customHeadingFont = "Termina";
+const customBodyFont = "Inter";
 
 const fonts = merge(defaultFonts, {
-  body: `"${customFont}", ${systemFonts}`,
-  heading: "inherit",
+  body: `"${customBodyFont}", ${systemFonts}`,
+  heading: `"${customHeadingFont}", ${systemFonts}`,
   monospace: `${monoFonts}`,
 });
 

@@ -4,35 +4,21 @@ import { css, Global } from "@emotion/core";
 
 const globalStyles = (theme) => css`
   @font-face {
-    font-family: "Bw Aleta No 20 DEMO";
-    src: url("/fonts/BwAletaNo20DEMO-Light.woff2") format("woff2"),
-      url("/fonts/BwAletaNo20DEMO-Light.woff") format("woff");
-    font-weight: 300;
+    font-family: "Termina";
+    src: url("/fonts/Termina-Medium.woff2") format("woff2"),
+      url("/fonts/Termina-Medium.woff") format("woff");
+    font-weight: 400;
     font-style: normal;
+    font-display: swap;
   }
 
   @font-face {
-    font-family: "Bw Aleta No 20 DEMO Light It";
-    src: url("/fonts/BwAletaNo20DEMO-LightItalic.woff2") format("woff2"),
-      url("/fonts/BwAletaNo20DEMO-LightItalic.woff") format("woff");
-    font-weight: 300;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: "Bw Aleta No 20 DEMO";
-    src: url("/fonts/BwAletaNo20DEMO-BoldItalic.woff2") format("woff2"),
-      url("/fonts/BwAletaNo20DEMO-BoldItalic.woff") format("woff");
-    font-weight: bold;
-    font-style: italic;
-  }
-
-  @font-face {
-    font-family: "Bw Aleta No 20 DEMO";
-    src: url("/fonts/BwAletaNo20DEMO-Bold.woff2") format("woff2"),
-      url("/fonts/BwAletaNo20DEMO-Bold.woff") format("woff");
-    font-weight: bold;
+    font-family: "Inter";
+    src: url("/fonts/Inter-Regular.woff2") format("woff2"),
+      url("/fonts/Inter-Regular.woff") format("woff");
+    font-weight: 500;
     font-style: normal;
+    font-display: swap;
   }
 
   ::selection {
