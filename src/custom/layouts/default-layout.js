@@ -3,7 +3,7 @@ import { jsx, Box } from "theme-ui";
 import { DefaultLayout, Drop } from "library";
 import * as sections from ".";
 import { initialColorMode, modes as extraModes } from "custom";
-import { Logo, PrivacyNotice } from "../components";
+import { Logo, PrivacyNotice, Footer } from "../components";
 
 export default function Page({ data, settings }) {
   const modes = [initialColorMode, ...Object.keys(extraModes)];
@@ -22,6 +22,7 @@ export default function Page({ data, settings }) {
       customSections={sections}
       bannerBackgroundGrad={true}
     >
+      <Footer />
       <PrivacyNotice />
     </DefaultLayout>
   );

@@ -10,6 +10,7 @@ export const uiColors = {
   background: colors.black,
   text: colors.white,
   logo: colors.white,
+  logoDark: colors.black,
 };
 
 export const initialColorMode = "default";
