@@ -16,6 +16,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-iubenda-policy": "^0.1.1",
+    "react-player": "^2.1.1",
     "theme-ui": "^0.3.1"
   },
   "devDependencies": {}
