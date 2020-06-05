@@ -73,7 +73,7 @@ function HeroSection(props) {
           </Flex>
           <Flex
             sx={{
-              minHeight: "700px",
+              minHeight: "620px",
               width: ["100%", null, "50%", "45%"],
             }}
           >
