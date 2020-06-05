@@ -21,4 +21,7 @@ export default merge(baseTheme, {
   colors: { ...customColors, ...uiColors, modes },
   fonts,
   ...typography,
+  shadows: {
+    large: "8px 8px 23px -8px rgba(0,0,0,0.71)",
+  },
 });
