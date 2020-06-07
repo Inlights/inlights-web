@@ -7,8 +7,8 @@ const Footer = () => {
     <Box
       as="header"
       sx={{
-        bg: "text",
-        text: "background",
+        bg: "background",
+        text: "text",
         width: "100%",
         pt: [0, null, 4],
       }}
@@ -25,7 +25,7 @@ const Footer = () => {
         }}
       >
         <Box sx={{ height: [28, null, 32], pl: 2, mt: [16, null, 0] }}>
-          <Logo isDark />
+          <Logo />
         </Box>
       </Flex>
     </Box>
