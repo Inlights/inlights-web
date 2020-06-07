@@ -13,10 +13,10 @@ const globalStyles = (theme) => css`
   }
 
   @font-face {
-    font-family: "Inter";
-    src: url("/fonts/Inter-Regular.woff2") format("woff2"),
-      url("/fonts/Inter-Regular.woff") format("woff");
-    font-weight: 500;
+    font-family: "BW Nista";
+    src: url("/fonts/BwNistaGrotesk-Light.woff2") format("woff2"),
+      url("/fonts/BwNistaGrotesk-Light.woff") format("woff");
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
   }

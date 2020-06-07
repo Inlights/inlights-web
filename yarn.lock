@@ -5595,6 +5595,11 @@ react-is@16.13.1, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-iubenda-policy@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/react-iubenda-policy/-/react-iubenda-policy-0.1.1.tgz#5df8ae5ed70c3cf0d0107c035ff9e998518fb71b"
+  integrity sha512-KUvsYAbzY3HxxN5Mo8v/39E9iCQ80jv2ZYN1xaKZIvNVNRNp9Uymzy9+qIxXCiDQp8blQcFZJ1a0J/ZY4Z3vNA==
+
 react-mailchimp-subscribe@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/react-mailchimp-subscribe/-/react-mailchimp-subscribe-2.1.0.tgz#a2bb7064af4bad310ef5d308322de95491d401c3"

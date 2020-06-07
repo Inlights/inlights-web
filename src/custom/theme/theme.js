@@ -25,4 +25,13 @@ export default merge(baseTheme, {
   shadows: {
     large: "8px 8px 23px -8px rgba(0,0,0,0.71)",
   },
+  styles: {
+    root: {
+      fontFamily: "body",
+      color: "text",
+      bg: "background",
+      lineHeight: "body",
+      fontWeight: "300",
+    },
+  },
 });
