@@ -2,7 +2,7 @@
   "name": "inlights-web",
   "description": "Website for inlights app",
   "scripts": {
-    "dev": "next -p 3001",
+    "dev": "next",
     "build": "next build",
     "start": "next start"
   },
