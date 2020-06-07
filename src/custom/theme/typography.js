@@ -21,9 +21,20 @@ const headings = {
     fontSize: [3, 4],
     mb: 4,
   },
+};
+
+const bodyStyles = {
   large: {
     fontSize: 3,
     mb: 5,
+  },
+  overline: {
+    fontSize: 0,
+    lineHeight: "body",
+    textTransform: "uppercase",
+    letterSpacing: "loose",
+    fontFamily: "heading",
+    mb: 2,
   },
 };
 
@@ -42,5 +53,6 @@ export default {
   },
   text: {
     ...headings,
+    ...bodyStyles,
   },
 };
