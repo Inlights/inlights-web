@@ -12,7 +12,7 @@ export default function Page({ data, settings }) {
       data={data}
       settings={settings}
       logo={
-        <Box sx={{ height: [28, null, 32], pl: 2, mt: [16, null, 0] }}>
+        <Box sx={{ height: [28, null, 32], pl: [4, 2], mt: [16, null, 0] }}>
           <Logo />
         </Box>
       }

@@ -8,27 +8,27 @@ const headingStyles = {
 const headings = {
   heading1: {
     ...headingStyles,
-    fontSize: [5, null, null, 6],
+    fontSize: [4, null, null, 5],
+    mb: 5,
   },
   heading2: {
     ...headingStyles,
     fontSize: [4, 5],
+    mb: 4,
   },
   heading3: {
     ...headingStyles,
     fontSize: [3, 4],
+    mb: 4,
   },
-  heading4: {
-    ...headingStyles,
-    fontSize: [3],
-  },
-  heading5: {
-    ...headingStyles,
-    fontSize: [1, 2],
+  large: {
+    fontSize: 3,
+    mb: 5,
   },
 };
 
 export default {
+  fontSizes: [14, 16, 18, 22, 32, 46, 58, 64],
   lineHeights: {
     normal: "normal",
     none: 1,
