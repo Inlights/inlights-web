@@ -7,6 +7,11 @@ import { Logo, PrivacyNotice, Footer } from "../components";
 
 export default function Page({ data, settings }) {
   const modes = [initialColorMode, ...Object.keys(extraModes)];
+  const socials = {
+    instagram: settings?.instagram,
+    twitter: settings?.twitter,
+    facebook: settings?.facebook,
+  };
   return (
     <DefaultLayout
       data={data}
@@ -22,7 +27,7 @@ export default function Page({ data, settings }) {
       customSections={sections}
       bannerBackgroundGrad={true}
     >
-      <Footer />
+      <Footer socials={socials} />
       <PrivacyNotice />
     </DefaultLayout>
   );

@@ -1,8 +1,9 @@
 /** @jsx jsx */
 import { jsx, Flex, Box } from "theme-ui";
 import { Logo } from "./svg";
+import { IconButton, Twitter, Instagram, Facebook } from "library";
 
-const Footer = () => {
+const Footer = ({ socials }) => {
   return (
     <Box
       as="header"
@@ -26,6 +27,26 @@ const Footer = () => {
       >
         <Box sx={{ height: [28, null, 32], pl: 2, mt: [16, null, 0] }}>
           <Logo />
+        </Box>
+        <Box>
+          {socials.instagram ? (
+            <IconButton
+              icon={<Instagram />}
+              link={`https://www.instagram.com/${socials.instagram}`}
+            />
+          ) : null}
+          {socials.twitter ? (
+            <IconButton
+              icon={<Twitter />}
+              link={`https://twitter.com/${socials.twitter}`}
+            />
+          ) : null}
+          {socials.facebook ? (
+            <IconButton
+              icon={<Facebook />}
+              link={`https://facebook.com/${socials.facebook}`}
+            />
+          ) : null}
         </Box>
       </Flex>
     </Box>
