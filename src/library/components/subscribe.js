@@ -168,12 +168,12 @@ export default function Subscribe({
                         py: [3, null, null, 4],
                         pl: 4,
                         "&::placeholder": {
-                          color: "grey.500",
+                          color: "grey.800",
                         },
                         "&:hover": {
                           boxShadow: (theme) => `${theme.shadows.large}`,
                           "&::placeholder": {
-                            color: "grey.600",
+                            color: "grey.500",
                           },
                         },
                         "&:focus": {
