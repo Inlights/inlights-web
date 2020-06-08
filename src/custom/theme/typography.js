@@ -23,8 +23,9 @@ const headings = {
   },
   heading5: {
     ...headingStyles,
-    fontWeight: "300",
+    fontWeight: "bold",
     fontSize: [2, 3],
+    fontFamily: "body",
     mb: 4,
   },
 };
