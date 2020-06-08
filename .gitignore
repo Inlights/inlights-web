@@ -170,3 +170,4 @@ sketch
 .vercel
 cms/.env.development
 .env.development
+.env.build

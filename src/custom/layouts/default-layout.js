@@ -4,8 +4,10 @@ import { DefaultLayout, Drop } from "library";
 import * as sections from ".";
 import { initialColorMode, modes as extraModes } from "custom";
 import { Logo, PrivacyNotice, Footer } from "../components";
+import firebase from "../firebase";
 
 export default function Page({ data, settings }) {
+  console.log(firebase);
   const modes = [initialColorMode, ...Object.keys(extraModes)];
   const socials = {
     instagram: settings?.instagram,
