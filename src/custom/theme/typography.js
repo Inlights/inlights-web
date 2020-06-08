@@ -21,6 +21,12 @@ const headings = {
     fontSize: [3, 4],
     mb: 4,
   },
+  heading5: {
+    ...headingStyles,
+    fontWeight: "300",
+    fontSize: [2, 3],
+    mb: 4,
+  },
 };
 
 const bodyStyles = {
