@@ -8,7 +8,7 @@ const headingStyles = {
 const headings = {
   heading1: {
     ...headingStyles,
-    fontSize: [4, null, null, 5],
+    fontSize: 5,
     mb: 5,
   },
   heading2: {

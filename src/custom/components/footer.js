@@ -28,21 +28,26 @@ const Footer = ({ socials }) => {
         <Box sx={{ height: [28, null, 32], pl: 2, mt: [16, null, 0] }}>
           <Logo />
         </Box>
-        <Box>
+        <Box sx={{ alignSelf: "center" }}>
           {socials.instagram ? (
             <IconButton
+              newTab
               icon={<Instagram />}
               link={`https://www.instagram.com/${socials.instagram}`}
             />
           ) : null}
           {socials.twitter ? (
             <IconButton
+              mLeft={2}
+              newTab
               icon={<Twitter />}
               link={`https://twitter.com/${socials.twitter}`}
             />
           ) : null}
           {socials.facebook ? (
             <IconButton
+              mLeft={2}
+              newTab
               icon={<Facebook />}
               link={`https://facebook.com/${socials.facebook}`}
             />
